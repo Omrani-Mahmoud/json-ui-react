@@ -4,7 +4,7 @@ import Grid from '@material-ui/core/Grid';
 import './components/style/json_display.css';
 import Custom_span from './components/Custom_span';
 import {ID} from './_ID';
-import Typography from '@material-ui/core/Typography';
+import { Alert, AlertTitle } from '@material-ui/lab';
 
 export const Json_display = ({data,height}) => {
     const getObjectLength = (object)=>{
@@ -54,9 +54,12 @@ export const Json_display = ({data,height}) => {
                        </div>
                         ))
                     :
-                    <Typography variant="h4" gutterBottom>
-                            Empty data or Undefined
-                    </Typography>
+                    <Grid item xs={12} sm={3} className='paper'>
+               <Alert severity="info">
+                    <AlertTitle>Info</AlertTitle>
+                    Data passed to Json_display is  <strong>empty!</strong>
+                </Alert>
+                </Grid>
                 }
             </Paper>
         </Grid>
