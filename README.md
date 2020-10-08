@@ -20,11 +20,36 @@ import 'json-ui-react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <JsonDisplay />
+    return <JsonDisplay data={data} />
   }
 }
 ```
 
+## Props
+
+```html
+<table>
+<tr>
+<th>Prop name	</th>
+<th>Description	</th>
+<th>Default	</th>
+<th>Example	</th>
+</tr>
+<tr>
+    <td>data</td>
+    <td>the data that will be displayed ( json ) </td>
+    <td>-</td>
+    <td>data=[{ "name":"John", "age":30, "car":null }]</td>
+  </tr>
+<tr>
+    <td>height</td>
+    <td>the height of the json container ( will be scrollable automatically ) </td>
+    <td>auto</td>
+    <td>height={400}</td>
+  </tr>
+  </table>
+
+```
 ## License
 
 MIT © [Omrani-Mahmoud](https://github.com/Omrani-Mahmoud)
