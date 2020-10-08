@@ -26,8 +26,6 @@ class Example extends Component {
 ```
 
 ## Props
-
-```html
 <html>
 <table>
 <tr>
@@ -50,8 +48,7 @@ class Example extends Component {
   </tr>
   </table>
   </html>
-
-```
+  
 ## License
 
 MIT © [Omrani-Mahmoud](https://github.com/Omrani-Mahmoud)
