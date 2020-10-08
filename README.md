@@ -38,7 +38,7 @@ class Example extends Component {
     <td>data</td>
     <td>the data that will be displayed ( json ) </td>
     <td>-</td>
-    <td>data=[{ "name":"John", "age":30, "car":null }]</td>
+    <td>data={[{ "name":"John", "age":30, "car":null }]}</td>
   </tr>
 <tr>
     <td>height</td>
