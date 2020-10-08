@@ -12,11 +12,13 @@
     "node": ">=10"
   },
   "keywords": [
-    "react",
-    "material-ui",
-    "JSON",
-    "ui",
-    "displayer"
+    "json-viewer",
+    "react-component",
+    "json-component",
+    "json",
+    "json-view",
+    "json-tree",
+    "react-json"
   ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
