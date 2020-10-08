@@ -1,4 +1,4 @@
-# f
+# Json UI React
 
 > display json ui for react
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save f
+npm install --save json-ui-react
 ```
 
 ## Usage
@@ -15,12 +15,12 @@ npm install --save f
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'f'
-import 'f/dist/index.css'
+import JsonDisplay from 'json-ui-react'
+import 'json-ui-react/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <JsonDisplay />
   }
 }
 ```
