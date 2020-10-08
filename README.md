@@ -28,6 +28,7 @@ class Example extends Component {
 ## Props
 
 ```html
+<html>
 <table>
 <tr>
 <th>Prop name	</th>
@@ -48,6 +49,7 @@ class Example extends Component {
     <td>height={400}</td>
   </tr>
   </table>
+  </html>
 
 ```
 ## License
