@@ -54,7 +54,7 @@ export const Json_display = ({data,height}) => {
                        </div>
                         ))
                     :
-                    <Grid item xs={12} sm={3} className='paper'>
+                    <Grid item xs={12} sm={12} className='paper'>
                <Alert severity="info">
                     <AlertTitle>Info</AlertTitle>
                     Data passed to Json_display is  <strong>empty!</strong>
