@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "f": "file:..",
-    "json-ui-react": "^1.0.7",
+    "json-ui-react": "^1.0.8",
     "react": "file:../node_modules/react",
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts"
