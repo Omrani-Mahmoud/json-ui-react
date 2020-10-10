@@ -15,10 +15,12 @@
     "json-viewer",
     "react-component",
     "json-component",
+    "material-ui",
     "json",
     "json-view",
     "json-tree",
-    "react-json"
+    "react-json",
+    "material ui"
   ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
