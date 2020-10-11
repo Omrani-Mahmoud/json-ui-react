@@ -20,7 +20,7 @@
     "json-view",
     "json-tree",
     "react-json",
-    "material ui"
+    "material ui component"
   ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
