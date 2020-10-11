@@ -18,12 +18,37 @@ import React, { Component } from 'react'
 import JsonDisplay from 'json-ui-react'
 import 'json-ui-react/dist/index.css'
 
+let data =[{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}];
 class Example extends Component {
   render() {
     return <JsonDisplay data={data} />
   }
 }
 ```
+
+![image](https://i.ibb.co/Qn53NRn/example.png)
+
 
 ## Props
 <html>

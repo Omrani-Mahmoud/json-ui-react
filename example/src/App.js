@@ -25,8 +25,9 @@ const App = () => {
             }
         }
     }
-}]
-  return <Json_display data={data}/>
+}];
+
+  return <Json_display data={data} height={250}/>
 }
 
 export default App
